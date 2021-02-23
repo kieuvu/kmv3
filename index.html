@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="header">
+        <div class="header__container grid">
+            <div class="logo">
+                <a href="#" class="logo__img">
+                    <img
+                        src="https://raw.githubusercontent.com/kieuvu/kmv/main/assets/images/avatar.png" 
+                        alt="">
+                </a>
+                    <h1 
+                        class="logo__text">KIEU<span>V<span>U</span></span>
+                    </h1>
+                </div>
+            <div class="menu">
+                <nav class="pc__menu">
+                    <ul class="pc__menu-list">
+                        <li class="pc__menu-item">
+                            <a href="#" class="pc__menu-link">Movies<i class="iconNav fad fa-chevron-down"></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Newese</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Unreleased</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Top Rated</a></li>
+                            </ul>
+                        </li>
+                        <li class="pc__menu-item">
+                            <a href="#" class="pc__menu-link">Categories<i class="iconNav fad fa-chevron-down"></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Cartoons</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Fantasy</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Sci-fi</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Horror</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Action</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Adventure</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Comedy</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Drama</a></li>
+                            </ul>
+                        </li>
+                        <li class="pc__menu-item">
+                            <a href="#" class="pc__menu-link">TV Episodes<i class="iconNav fad fa-chevron-down"></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">In Vietnam</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">In US/UK</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Others</a></li>
+                            </ul>
+                        </li>
+                        <li class="pc__menu-item">
+                            <a href="#" class="pc__menu-link">News</a>
+                        </li>
+                        <li class="pc__menu-item">
+                            <a href="#" class="pc__menu-link">Community<i class="iconNav fad fa-chevron-down"></i></a>
+                            <ul class="sub__menu">
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">About Us</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Contacts</a></li>
+                                <li class="sub__menu-item"><a href="#" class="sub__menu-link">Sources</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                
+                <div class="responsive">
+                    
+                    <input type="checkbox" hidden name="navMenuIcon" id="navMenuIcon">
+                    
+
+                    <label for="navMenuIcon" class="openMenuBar"><i class="openMenuBarIcon fad fa-bars"></i></label>
+
+                    <label for="navMenuIcon" class="overlay"></label>
+
+                    <nav class="mobile__menu">
+                        
+                        <div class="navResponsiveHeader">
+                            <div class="signin__responsive">
+                                <input type="button" value="Registry" class="btn">
+                                <input type="button" value="Login" class="btn">
+                            </div>
+                            <label for="navMenuIcon" class="closeMenu"><i class="closeMenuIcon fas fa-times"></i></label>
+                        </div>
+
+                        <ul class="mobile__menu-list">
+                            <li class="mobile__menu-item">
+                                <a href="#" class="mobile__menu-link"><i
+                                    class="iconNav2 fad fa-chevron-down"></i>Movies</a>
+                                <ul class="sub__mobile-menu">
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Newese</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Unreleased</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Top Rated</a></li>
+                                </ul>
+                            </li>
+                            <li class="mobile__menu-item">
+                                <a href="#" class="mobile__menu-link"><i
+                                    class="iconNav2 fad fa-chevron-down"></i>Categories</a>
+                                <ul class="sub__mobile-menu">
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Cartoons</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Fantasy</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Sci-fi</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Horror</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Action</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Adventure</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Comedy</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Drama</a></li>
+                                </ul>
+                            </li>
+                            <li class="mobile__menu-item">
+                                <a href="#" class="mobile__menu-link"><i
+                                    class="iconNav2 fad fa-chevron-down"></i>TV Episodes</a>
+                                <ul class="sub__mobile-menu">
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">In Vietnam</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">In US/UK</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Others</a></li>
+                                </ul>
+                            </li>
+                            <li class="mobile__menu-item">
+                                <a href="#" class="mobile__menu-link">News</a>
+                            </li>
+                            <li class="mobile__menu-item">
+                                <a href="#" class="mobile__menu-link"><i
+                                    class="iconNav2 fad fa-chevron-down"></i>Community</a>
+                                <ul class="sub__mobile-menu">
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">About Us</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Contacts</a></li>
+                                    <li class="sub__mobile-menu-item"><a href="#" class="sub__mobile-menu-link">Sources</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+            <div class="signin">
+                <input type="button" value="Registry" class="btn">
+                <input type="button" value="Login" class="btn">
+            </div>
+        </div>
+    </section>
+    <!-- Main Content -->
+    <section class="main">
+        <div class="headingContent">
+            <div class="heading grid">
+                <div class="leftContent">
+                    <p class="wellcome">Avengers :</p>
+                    <br>
+                    <p class="wellcome2">END GAME</p>
+                    <p class="introducing">Avengers: Endgame is a 2019 American superhero film based on the Marvel
+                        Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney
+                        Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd
+                        film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by
+                        Christopher Markus and Stephen McFeely, the film features an ensemble cast including Robert
+                        Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don
+                        Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley
+                        Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving members of the Avengers and
+                        their allies attempt to reverse the damage caused by Thanos in Infinity War. <br> --Wikipedia--
+                    </p>
+                    <div id="btn">
+                        <input type="button" value="READ MORE" class="introBtn">
+                        <input type="button" value="TRAILER" class="introBtn">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainContent grid">
+            <div class="stage stage1">
+                <div class="state__heading">
+                    <div class="state__heading-grid grid">
+                        <h1 class="nameCategory">Newest</h1>
+                    </div>
+                </div>
+                <div class="grid film__area">
+                    <div class="film">
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://cdn.gamer-network.net/2020/usgamer/Marvels-Avengers-Key-Art-1-09082020.jpg/EG11/thumbnail/1920x1080/format/jpg/quality/65/marvels-avengers-review.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>Marvels:</h1>
+                                <a href="#">END GAME (2019)</a>
+                                <span>#Sci-fi</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://www.denofgeek.com/wp-content/uploads/2018/04/the-flash-season-5-release-date-news-villain-story.jpg?fit=1200%2C900"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>DC Comics:</h1>
+                                <a href="#">THE FLASH (2019)</a>
+                                <span>#Sci-fi</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOgoxygyEH6vKsSt54wMk2X2qnPT0eiGygQ&usqp=CAU"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>DC Comics:</h1>
+                                <a href="#">AQUAMAN (2019)</a>
+                                <span>#Sci-fi</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://photo-cms-plo.zadn.vn/Uploaded/2021/xpckxpiu/2019_06_08/tom-va-jerry-dai-dien_jokn.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>MGM:</h1>
+                                <a href="#">TOM & JERRY (1964)</a>
+                                <span>#Cartoon</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://www.cartoonbrew.com/wp-content/uploads/2014/02/phineasandferb-cancelled-1280x600.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>Disney Television:</h1>
+                                <a href="#">FISISH & FERB (2007)</a>
+                                <span>#Cartoon</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Frobcain%2Ffiles%2F2017%2F10%2FKevin-Home-Alone.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>Hughes Entertainment:</h1>
+                                <a href="#">HOME ALONE (1990)</a>
+                                <span>#Comedy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stage stage2">
+                <div class="state__heading">
+                    <div class="state__heading-grid grid">
+                        <h1 class="nameCategory">Cartoon Films</h1>
+                    </div>
+                </div>
+                <div class="grid film__area">
+                    <div class="film">
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://vtv1.mediacdn.vn/thumb_w/650/2019/5/22/minions-2-the-rise-of-gru-release-date-15584953650321858753011.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>Disney Chanel:</h1>
+                                <a href="#">MINIONS (2019)</a>
+                                <span>#Cartoon</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://kenh14cdn.com/thumb_w/640/pr/2020/1607432797539-0-111-669-1181-crop-1607432803997-63743074283293.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>DC Comics:</h1>
+                                <a href="#">NẢUTO (2019)</a>
+                                <span>#Cartoon</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://cdn.tgdd.vn/Files/2015/08/26/690292/khidoraemontrongthegioigta2.png"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>DC Comics:</h1>
+                                <a href="#">DORAEMON (2019)</a>
+                                <span>#Cartoon</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://c.files.bbci.co.uk/B94B/production/_114153474_gettyimages-1262786338.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>Joe Ruby:</h1>
+                                <a href="#">SCOOBY-DOO (1957)</a>
+                                <span>#Cartoon</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://photo-cms-plo.zadn.vn/Uploaded/2021/xpckxpiu/2019_06_08/tom-va-jerry-dai-dien_jokn.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>MGM:</h1>
+                                <a href="#">TOM & JERRY (1964)</a>
+                                <span>#Cartoon</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://www.cartoonbrew.com/wp-content/uploads/2014/02/phineasandferb-cancelled-1280x600.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>Disney Television:</h1>
+                                <a href="#">FISISH & FERB (2007)</a>
+                                <span>#Cartoon</span>
+                            </div>
+                        </div>
+                        <div class="film__banner">
+                            <div class="imgBanner">
+                                <img src="https://cdn.zenquiz.net/external/2016/06/30/10/97069a10-3eaf-11e6-a116-050901070303-compressed.jpg"
+                                    alt="">
+                            </div>
+                            <div class="filmDescri">
+                                <h1>Hughes Entertainment:</h1>
+                                <a href="#">CÔNG CHÚA ORI (1990)</a>
+                                <span>#Cartoon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
